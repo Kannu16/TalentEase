@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  top: 0;
+  background: #fff;
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+nav .navbar .navbar-brand--left {
+  margin: 0 0 0 50px;
+}
+
+nav .navbar .navbar-mid ul {
+  display: flex;
+}
+
+nav .navbar .navbar-mid ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav .navbar .navbar-mid ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #777;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+nav .navbar .navbar-mid ul li a:hover {
+  color: red;
+}
+
+nav .navbar .navbar-right {
+  margin: 0 50px 0 0;
+}
+
+nav .navbar .navbar-right .shopping-cart {
+  font-size: 1.1rem;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+}
+
+nav .navbar .navbar-right a {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #c71717;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 50px;
+}
+
+section .row {
+  display: flex;
+  width: 90%;
+  margin-top: 70px;
+}
+
+section .row .col1 {
+  width: 30%;
+  margin: auto;
+}
+
+section .row .col1 img {
+  border-radius: 50%;
+}
+
+section .row .col2 {
+  width: 50%;
+}
+
+section .row .col2 .col2-inner h2 {
+  margin: 30px 0;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+section .row .col2 .col2-inner h3 {
+  color: red;
+  text-transform: uppercase;
+}
+
+section .row .col2 .col2-inner .rupee-icons {
+  color: #28838A;
+}
+
+section .row .col2 .col2-inner p {
+  margin: 30px 0;
+  color: #777;
+}
+
+section .row .col2 .col2-inner p .para-inner {
+  margin: 20px 0;
+}
+
+section .row .col2 .col2-inner p strong {
+  color: #333;
+}
+
+section .row .col2 .col2-inner .enroll-enquiry-buttons {
+  margin: 30px 0 0 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .row .col2 .col2-inner .enroll-enquiry-buttons a {
+  background-color: red;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+
+section .row .col2 .col2-inner .enroll-enquiry-buttons a .shopping-cart {
+  margin: 0 10px 0 0;
+}
+
+section .row .col2 .col2-inner .enroll-enquiry-buttons .enquiry {
+  background-color: #f7a707;
+}
+
+section .enrollment-box {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+}
+
+section .enrollment-box .enrollment-left,
+section .enrollment-box .enrollment-mid,
+section .enrollment-box .enrollment-right {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+
+section .enrollment-box .enrollment-left .icon,
+section .enrollment-box .enrollment-mid .icon,
+section .enrollment-box .enrollment-right .icon {
+  color: #f7a707;
+  border: 3px solid #f7a707;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  margin: 0 0 12px 0;
+}
+
+section .enrollment-box .enrollment-left h3,
+section .enrollment-box .enrollment-mid h3,
+section .enrollment-box .enrollment-right h3 {
+  color: #333;
+}
+
+section .enrollment-box .enrollment-left p,
+section .enrollment-box .enrollment-mid p,
+section .enrollment-box .enrollment-right p {
+  margin: 7px 0 0 0;
+  text-transform: capitalize;
+  color: #777;
+}
+
+section .talentease-mentors {
+  margin: 20px 0;
+  background-color: #ddd;
+}
+
+section .talentease-mentors .row {
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .talentease-mentors .row .talentease-mentor--left {
+  padding: 20px;
+  background-image: url("../Images/elements.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .talentease-mentors .row .talentease-mentor--left .te-logo {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+section .talentease-mentors .row .talentease-mentor--right {
+  padding: 20px;
+}
+
+section .talentease-mentors .row .talentease-mentor--right span {
+  text-transform: uppercase;
+  color: red;
+  font-weight: 600;
+}
+
+section .talentease-mentors .row .talentease-mentor--right h2 {
+  text-transform: capitalize;
+  color: #333;
+  margin: 10px 0 20px 0;
+}
+
+section .talentease-mentors .row .talentease-mentor--right p {
+  color: #777;
+}
+
+section .workshop-box {
+  width: 90%;
+  margin: 20px auto;
+}
+
+section .workshop-box .row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+section .workshop-box .row .workshop-box--left {
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section .workshop-box .row .workshop-box--left .icon {
+  color: #f7a707;
+}
+
+section .workshop-box .row .workshop-box--left h3 {
+  text-transform: capitalize;
+  color: #333;
+  margin: 15px 0 10px 0;
+}
+
+section .workshop-box .row .workshop-box--left ul {
+  padding-left: 30px;
+}
+
+section .workshop-box .row .workshop-box--left ul li {
+  margin: 0 0 10px 0;
+}
+
+section .workshop-box .row .workshop-box--right {
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 0 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section .workshop-box .row .workshop-box--right .icon {
+  color: #f7a707;
+}
+
+section .workshop-box .row .workshop-box--right h3 {
+  text-transform: capitalize;
+  color: #333;
+  margin: 15px 0 10px 0;
+}
+
+section .workshop-box .row .workshop-box--right p {
+  margin: 0 0 10px 0;
+  color: #777;
+}
+
+section .workshop-box .row .workshop-box--right p span {
+  font-weight: 600;
+  color: #333;
+}
+
+section .more-mentoring-workshop {
+  width: 90%;
+  margin: 10% auto;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--title {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--title h2 {
+  text-transform: capitalize;
+  color: #333;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--title a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: red;
+  border-radius: 50px;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--title a .icon {
+  margin-left: 7px;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--content-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 0 0;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--content-box .box1, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box2, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box3 {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--content-box .box1 img, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box2 img, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box3 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section .more-mentoring-workshop .more-mentoring-workshop--content-box .box1 p, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box2 p, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box3 p {
+  padding: 20px;
+}
+
+footer .talentease-footer {
+  background-color: #3E3E3E;
+  width: 100%;
+  height: 500px;
+}
+
+footer .footer-inner {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footer-inner img {
+  margin: 30px 0;
+  width: 15%;
+}
+
+footer .footer-inner p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+  margin: 0 0 20px 0;
+  line-height: 24px;
+}
+
+footer .footer-inner .links {
+  text-align: center;
+}
+
+footer .footer-inner .links a {
+  text-decoration: none;
+  color: #f7a707;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer .footer-inner .links ul {
+  display: flex;
+  margin: 40px 0 50px 0;
+}
+
+footer .footer-inner .links ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+footer .footer-inner .links ul li a {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+footer .footer-inner .copyright-section {
+  border-top: 2px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10px 0 10px;
+}
+
+footer .footer-inner .section-left p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+footer .footer-inner .section-right a .icons {
+  color: #fff;
+  background: red;
+  font-size: 1.2rem;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 50px;
+  margin: 0 0 0 15px;
+}
+
+@media only screen and (max-width: 1028px) {
+  nav {
+    display: none;
+  }
+  section .row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  section .row .col1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .row .col2 {
+    width: 90%;
+  }
+  section .row .col2 .col2-inner .enroll-enquiry-buttons {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section .enrollment-box {
+    flex-direction: column;
+  }
+  section .enrollment-box .enrollment-left, section .enrollment-box .enrollment-mid, section .enrollment-box .enrollment-right {
+    margin: 10px 0 0 0;
+  }
+  section .talentease-mentors .row {
+    height: 500px;
+  }
+  section .talentease-mentors .row .talentease-mentor--left {
+    display: none;
+  }
+  section .workshop-box .row .workshop-box--left, section .workshop-box .row .workshop-box--right {
+    width: 100%;
+    margin: 10px 0;
+  }
+  section .more-mentoring-workshop .more-mentoring-workshop--content-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  section .more-mentoring-workshop .more-mentoring-workshop--content-box .box1, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box2, section .more-mentoring-workshop .more-mentoring-workshop--content-box .box3 {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  footer .talentease-footer {
+    height: 100%;
+  }
+  footer .footer-inner img {
+    width: 40%;
+  }
+  footer .footer-inner .links ul {
+    flex-direction: column;
+  }
+  footer .footer-inner .links ul li {
+    margin: 10px 0;
+  }
+  footer .copyright-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
